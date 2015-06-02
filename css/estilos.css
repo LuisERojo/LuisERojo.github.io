@@ -1,0 +1,208 @@
+body
+{
+	max-width:1024px;
+}
+header nav
+{
+	text-align: center;
+	background: #430897;
+
+}
+
+header nav ul li
+{
+	display: inline-block;
+	padding: 8px 10px 10px 10px;
+	background: yellow;
+	margin: 0px 10px 0px 10px;
+	border-radius: 5px;
+}
+
+header nav
+{
+	padding: 10px 0px 10px 0px;
+}
+footer
+{
+	background: #430897;
+}
+
+#p1 article
+{
+
+	display: inline-block;
+
+}
+#p2 article
+{
+	vertical-align: top;
+	display: inline-block;
+	width:32%;
+}
+#tec
+{
+	width: 100px;
+}
+#p1-1
+{
+	width: 70%;
+}
+#p1-2
+{
+	text-align: top;
+	width: 25%;
+
+}
+#p3 article
+{
+	
+	vertical-align: top;
+	display: inline-block;
+	width:32%;
+}
+#p4 article
+{
+	
+	vertical-align: top;
+	display: inline-block;
+	width:32%;
+}
+#principal
+{
+	width: 700px;
+}
+
+#universo
+{
+	margin-top: -70px;
+	padding: -300px 0px -300px 0px;
+	width: 1024px;
+	
+}
+.datos
+{
+	font-size: 150%;
+	color: #430897;
+	font-family: arial;
+}
+.informacion
+{
+	font-size: 80%;
+	color: #430897;
+	font-family: arial black;
+
+}
+.proyectos
+{
+	width: 300px;
+}
+.descripcion
+{
+	font-style: bold;
+	color: #195E0B;
+	font-family: arial black;
+
+}
+
+.datos2
+{
+	text-align: center;
+	font-family: arial black;
+	font-size: 150%;
+}
+.titulo
+{
+	color: #195E0B;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 669px){
+
+	body
+	{
+		width: 100%
+	}
+
+    header
+    {
+    	width: 100%;
+    }
+	
+
+	header nav ul li
+	{
+		display: block;
+		margin-top: 10px;
+	}
+	#p1 article
+    {
+    max-width: 100%;
+	display: block;
+	width: 99%
+
+    }
+    #p2 article
+    {
+    	border: 2px solid blue;
+    max-width: 100%;
+	display:block;
+	width: 95%
+    }
+        #p3 article
+    {
+    	border: 2px solid blue;
+    max-width: 100%;
+	display:block;
+	width: 95%
+    }
+          #p4 article
+    {
+    	border: 2px solid blue;
+    max-width: 100%;
+	display:block;
+	width: 95%
+    }
+
+
+	#principal
+    {
+
+    display: none;
+    }
+    #universo
+    {
+	
+	max-width: 100%
+	
+    }
+    #yo
+    {
+    	float: center;
+    	max-width: 100%;
+    	width: 90%;
+    }
+    #tec
+    {
+    	max-width: 100%;
+    	width: 80%;
+    }
+    .proyectos
+    {
+    	max-width: 100%;
+    	width: 93%;
+    }
+    .datos
+    {
+    	font-size: 180%;
+    	font-family: arial black;
+    }
+    .informacion
+    {
+    	font-size: 140%;
+    	font-family: arial black;
+    	color: black;
+
+    }
+
+
+}
